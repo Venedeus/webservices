@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>webservices</artifactId>
+        <groupId>com.epam.learning.java</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <json-path.version>2.4.0</json-path.version>
+        <spring.version>5.0.4.RELEASE</spring.version>
+    </properties>
+
+    <groupId>com.epam.learning.java.webservices</groupId>
+    <artifactId>rest</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>rest-springboot</module>
+        <module>rest-springboot-security</module>
+    </modules>
+
+
+</project>

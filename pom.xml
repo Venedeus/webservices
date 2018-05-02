@@ -16,6 +16,7 @@
     </parent>
 
     <modules>
+        <module>rest</module>
         <module>soap</module>
     </modules>
 </project>
